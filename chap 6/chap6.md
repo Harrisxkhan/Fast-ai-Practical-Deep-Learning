@@ -5,3 +5,15 @@ Gradient boosting is a method where models are built one after another, each lea
 Binary Split = Splits data into two groups. yes or no
 A deceiosn tree is a model that makes predictions by asking a seriis of yes? and no question about your data
 Random forest: Random forest is a collection of many decision tress trained on a random slices of data.
+
+
+
+For tabukar data we can use random forest..
+
+Random forests: Data split into branches , and doing like if else...
+
+We use this for to minimize overfitting..
+
+
+
+

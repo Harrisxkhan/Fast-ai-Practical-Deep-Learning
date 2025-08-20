@@ -73,7 +73,7 @@ c by hand (via sliders) until the red curve looked like it went through the clou
 
 “Measured the fit with Mean Absolute Error”
 
-Instead of just guessing “that looks good,” we calculated a single number—MAE—that’s the average vertical distance between each data point and our curve.
+ “that looks good,” we calculated a single number—MAE—that’s the average vertical distance between each data point and our curve.
 
 Lower MAE means the curve is closer, on average, to all the points.
 
@@ -93,7 +93,6 @@ a,b,c without you dragging sliders.
 
 When we move beyond a simple parabola to a neural network, each layer does two things:
 
-A linear step (multiply by weights and add biases), and
 
 A ReLU step, which replaces any negative results with zero.
 
@@ -106,3 +105,7 @@ We started with a simple formula and noisy sample points.
 We eyeballed the fit and then measured it with a loss.
 
 Finally, we taught the computer to do the tweaking automatically (gradient descent) and built more powerful predictors by adding ReLU “kinks” in each layer.
+
+We use matrix multipication to combine input and weighta, Like the input is our data and then the wwights are initlized random at first..
+
+
